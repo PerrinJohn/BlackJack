@@ -111,7 +111,7 @@ def game():
 			score(dealer_hand, player_hand)
 			play_again()
 		elif choice == "q":
-			print ("Bye!")
+			print ("Bye! Game over.")
 			exit()
 	
 if __name__ == "__main__":
